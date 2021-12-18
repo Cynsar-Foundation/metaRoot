@@ -2,16 +2,15 @@
 
 # Paper for the Protocol
 
-Right now the entire internet https() security is in hands of just few and if the single party fails the entire network security fails.  metaRoot  will address the root cause of this problem, we discuss how we can code a VM over Avalanche subnet that  proves the unique names and as well work as a decentralized certificate authority to issue certificates. Implementing a protocol over the avalanche subnet where the construction is such that namespaces resolves to certificates that are compact and are easily verifiable by billions of devices around the globe.
+Right now the entire internet https() security is in hands of just few and if the single party fails the entire network security fails.  metaRoot  will address the root cause of this problem, we discuss how we can implement a custom protocol that  proves the unique names and as well work as a decentralized certificate authority to issue certificates. Implementing a protocol over the avalanche subnet where the construction is such that namespaces resolves to certificates that are compact and are easily verifiable by billions of devices around the globe.
 
-Using the sub layer that is granted by subnet to achieve sync coordination of the certificates and namespaces. 
 
-The initial members would be rewarded to integrate ANS protocol on the native AVAX token.
+The initial members would be rewarded to integrate ANS protocol on the native MTR(Meta Root Token) token.
 
 
 **Introduction**
 
-Short names on the internet largely rely on the single trusted authority for the consensus , otherwise its meaningless and not secure. The trilemma of the zooko triangle takes form. A working subnet VM can fix this , [HandShake Ref] A committed sparse Merkelised proof ([link](https://github.com/bcoin-org/bcrypto/blob/master/lib/mrkl.js)) that contains the top level domain names with certificates pinned to them, this requires a re-design in trust anchor around the POS blockchain. Using the underlying subnet proof of stake consensus we would be allocating the resources to open source communities and individual members from different part of the world. 
+Short names on the internet largely rely on the single trusted authority for the consensus , otherwise its meaningless and not secure. The trilemma of the zooko triangle takes form. A working decentralised system that stores names and certificate can fix this , [HandShake Ref] A committed sparse Merkelised proof ([link](https://github.com/bcoin-org/bcrypto/blob/master/lib/mrkl.js)) that contains the top level domain names with certificates pinned to them, this requires a re-design in trust anchor around the POS blockchain. Using the underlying subnet proof of stake consensus we would be allocating the resources to open source communities and individual members from different part of the world. 
 
 **Working this out**
 

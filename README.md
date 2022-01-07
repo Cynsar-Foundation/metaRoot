@@ -1,5 +1,7 @@
 # metaRoot
 
+Metaroot is an experimental naming service that lets  anyone, anywhere in the world to register names and associate identity. Metaroot uses peer-to-peer technology to operate with no central authority: managing transactions and issuing names are carried out collectively by the network. Metaroot Core is the name of open source software which enables the use of this service.
+
 # Paper for the Protocol
 
 Right now the entire internet https() security is in hands of just few and if the single party fails the entire network security fails.  metaRoot  will address the root cause of this problem, we discuss how we can implement a custom protocol that  proves the unique names and as well work as a decentralized certificate authority to issue certificates. Implementing a protocol over the avalanche subnet where the construction is such that namespaces resolves to certificates that are compact and are easily verifiable by billions of devices around the globe.
@@ -21,12 +23,8 @@ The trusted model where tld and certificates are entrusted under a custodial mod
 
 Owners staking proofs and submitting to the network (How?)
 
-
 Proving true ownership with staking could reduce the risk where the honest name space owner must submit minimum amount of native tokens every time they make a claim over a TLD with CA associated. To reduce the spam over the network the resource transfer will happen over the period of time once the proofs of the ownership correctly resolves over chain. 
 
-Solution 1 Using Avalanche consensus for light weight client by providing Merkelised hashes for the proof of namespaces with CA
-
-Implementing a metaUTXO model where on chain ordering can be done with POS style block management that allows bitcoin style implementation for script parsing
 
 **Naming History**
 

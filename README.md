@@ -4,7 +4,7 @@ Metaroot is an experimental naming service that lets  anyone, anywhere in the wo
 
 # Paper for the Protocol
 
-Right now the entire internet https() security is in hands of just few and if the single party fails the entire network security fails.  metaRoot  will address the root cause of this problem, we discuss how we can implement a custom protocol that  proves the unique names and as well work as a decentralized certificate authority to issue certificates. Implementing a protocol over the avalanche subnet where the construction is such that namespaces resolves to certificates that are compact and are easily verifiable by billions of devices around the globe.
+Right now the entire internet https() security is in hands of just few and if the single party fails the entire network security fails.  metaRoot  will address the root cause of this problem, we discuss how we can implement a custom protocol that  proves the unique names and as well work as a decentralized certificate authority to issue certificates. Implementing a protocol of which the construction is such that namespaces resolves to certificates that are compact and are easily verifiable by billions of devices around the globe.
 
 
 The initial members would be rewarded to integrate ANS protocol on the native MTR(Meta Root Token) token.

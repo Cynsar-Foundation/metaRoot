@@ -2,12 +2,15 @@
 
 Metaroot is an experimental naming service that lets  anyone, anywhere in the world to register names and associate identity. Metaroot uses peer-to-peer technology to operate with no central authority: managing transactions and issuing names are carried out collectively by the network. Metaroot Core is the name of open source software which enables the use of this service.
 
-# Paper for the Protocol
+# Finding
 
-Right now the entire internet https() security is in hands of just few and if the single party fails the entire network security fails.  metaRoot  will address the root cause of this problem, we discuss how we can implement a custom protocol that  proves the unique names and as well work as a decentralized certificate authority to issue certificates. Implementing a protocol of which the construction is such that namespaces resolves to certificates that are compact and are easily verifiable by billions of devices around the globe.
+Right now the entire internet https() security is in hands of just few and if the single party fails the entire network security fails along with the naming service that powers domains like www.zyz.com, users must agree on their control across trust boundaries.  metaRoot will address the root cause of this problem, we discuss how we can implement a custom protocol that proves the unique names and as well work as a decentralized certificate authority to issue certificates and unique name spaces. Implementing a protocol of which the construction is such that namespaces resolves to certificates that are compact and are easily verifiable by billions of devices around the globe.
 
+Humans are incapable of securely storing high-quality cryptographic keys, and they have unacceptable speed and accuracy when performing cryptographic operations. (They are also large, expensive to maintain, difficult to manage, and they pollute the environment. It is astonishing that these devices continue to be manufactured and deployed. But they are sufficiently pervasive that we must design out protocols around their limitations. ([link](https://web.archive.org/web/20011020191610/http://zooko.com/distnames.html))
 
-The initial members would be rewarded to integrate ANS protocol on the native MTR(Meta Root Token) token.
+Nick Szabo disagrees the trilemma ([link](https://nakamotoinstitute.org/secure-property-titles/)) and provides cryptographic solutions with a simple replicated database that can verify the transfer using  `2f+1` threshold, with a voting to remove malice users and adding honest users. Hence a democratic system that has a math based quorum to achieve resilience against malicious users. The author points out that with secure timestamps, initial bootstrapping takes place with first-come rather than emergent respect basis.
+
+# What is DNS?
 
 
 **Introduction**
